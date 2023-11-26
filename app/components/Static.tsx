@@ -11,9 +11,9 @@ const Static:React.FC = () => {
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
               Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify,
-              subway tile poke farm-to-table. Franzen you probably haven't heard of them
-              man bun deep jianbing selfies heirloom prism food truck ugh squid celiac
-              humblebrag.
+              subway tile poke farm-to-table. Franzen you probably haven&apos;t heard of
+              them man bun deep jianbing selfies heirloom prism food truck ugh squid
+              celiac humblebrag.
             </p>
           </div>
           <div className="flex flex-wrap -m-4 text-center">

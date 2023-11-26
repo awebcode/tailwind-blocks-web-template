@@ -80,13 +80,7 @@ const Stats = () => {
           </div>
         </div>
       </div>
-      <script src="https://cdn.tailwindcss.com"></script>
-      <script src="https://kit.fontawesome.com/290d4f0eb4.js"></script>
-      <script
-        type="module"
-        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-      ></script>
-      <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      
     </div>
   );
 }

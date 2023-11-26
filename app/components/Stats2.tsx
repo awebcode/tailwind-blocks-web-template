@@ -163,7 +163,7 @@ const Stats2 = () => {
           </div>
         </div>
       </div>
-      <script src="https://cdn.tailwindcss.com"></script>{" "}
+      
     </div>
   );
 }

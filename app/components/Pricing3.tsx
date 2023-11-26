@@ -121,13 +121,7 @@ const Pricing3 = () => {
           </div>
         </div>
       </div>
-      <script src="https://cdn.tailwindcss.com"></script>
-      <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
-      <script
-        type="module"
-        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-      ></script>
-      <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      
     </div>
   );
 }
