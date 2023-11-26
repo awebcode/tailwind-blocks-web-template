@@ -21,7 +21,7 @@ const Footer = () => {
                 Subscribe{" "}
               </button>{" "}
             </div>
-            <div>
+            <div className='flex'>
               {" "}
               <a
                 href="#"
