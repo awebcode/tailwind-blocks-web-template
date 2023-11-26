@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 const Testimonial = () => {
@@ -21,11 +22,13 @@ const Testimonial = () => {
                 </svg>
                 <p className="leading-relaxed mb-6">
                   Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra
-                  before they sold out fixie 90&apos;s microdosing. Tacos pinterest fanny pack
-                  venmo, post-ironic heirloom try-hard pabst authentic iceland.
+                  before they sold out fixie 90&apos;s microdosing. Tacos pinterest fanny
+                  pack venmo, post-ironic heirloom try-hard pabst authentic iceland.
                 </p>
                 <a className="inline-flex items-center">
-                  <img
+                  <Image
+                    height={50}
+                    width={50}
                     alt="testimonial"
                     src="https://dummyimage.com/106x106"
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
@@ -51,11 +54,13 @@ const Testimonial = () => {
                 </svg>
                 <p className="leading-relaxed mb-6">
                   Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra
-                  before they sold out fixie 90&apos;s microdosing. Tacos pinterest fanny pack
-                  venmo, post-ironic heirloom try-hard pabst authentic iceland.
+                  before they sold out fixie 90&apos;s microdosing. Tacos pinterest fanny
+                  pack venmo, post-ironic heirloom try-hard pabst authentic iceland.
                 </p>
                 <a className="inline-flex items-center">
-                  <img
+                  <Image
+                    height={50}
+                    width={50}
                     alt="testimonial"
                     src="https://dummyimage.com/107x107"
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"

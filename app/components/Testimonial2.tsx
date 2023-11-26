@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Testimonial2: React.FC = () => {
@@ -29,9 +30,11 @@ const Testimonial2: React.FC = () => {
                 </div>
                 <div className="h-6 w-6 bg-gray-600 -mt-8 mb-4 origin-center rotate-45"></div>
                 <div className="flex flex-col  items-center justify-center">
-                  <img
+                  <Image
+                    height={80}
+                    width={80}
+                    alt="testimonial"
                     src="https://source.unsplash.com/100x100/?man,boy"
-                    alt=""
                     className="rounded-full h-20 w-20"
                   />
                   <div className="text-white text-sm font-medium">John Doe, CEO</div>
@@ -55,9 +58,11 @@ const Testimonial2: React.FC = () => {
                 </div>
                 <div className="h-6 w-6 bg-gray-600 -mt-8 mb-4 origin-center rotate-45"></div>
                 <div className="flex flex-col  items-center justify-center">
-                  <img
+                  <Image
+                    height={80}
+                    width={80}
+                    alt="testimonial"
                     src="https://source.unsplash.com/100x100/?girl"
-                    alt=""
                     className="rounded-full h-20 w-20"
                   />
                   <div className="text-white text-sm font-medium">
@@ -83,9 +88,12 @@ const Testimonial2: React.FC = () => {
                 </div>
                 <div className="h-6 w-6 bg-gray-600 -mt-8 mb-4 origin-center rotate-45"></div>
                 <div className="flex flex-col  items-center justify-center">
-                  <img
+                  <Image
+                    height={80}
+                    width={80}
+                    alt="testimonial"
                     src="https://source.unsplash.com/100x100/?woman"
-                    alt=""
+                    
                     className="rounded-full h-20 w-20"
                   />
                   <div className="text-white text-sm font-medium">

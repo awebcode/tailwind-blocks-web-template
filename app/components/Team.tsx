@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Team = () => {
@@ -11,9 +12,12 @@ const Team = () => {
             <div className="flex items-center justify-center md:flex-row flex-col space-x-4 space-y-4 p-2">
               <div className="flex-col px-6 py-2 shadow-xl rounded-2xl hover:scale-105 w-[90%] md:w-1/4">
                 <div className="h-40 w-40 border-2 border-cyan-500 rounded-full overflow-hidden bg-gray-200">
-                  <img
+                  <Image
+                    height={40}
+                    width={40}
+                    alt="ecommerce"
                     src="https://source.unsplash.com/300x300/?girl"
-                    alt=""
+                   
                     className=""
                   />
                 </div>

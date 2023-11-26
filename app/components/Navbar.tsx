@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -17,10 +18,12 @@ const Navbar = () => {
     <header className="bg-white">
       <nav className="flex justify-between items-center w-[92%] mx-auto">
         <div>
-          <img
+          <Image
+            height={16}
+            width={36}
+            alt=""
             className="w-16 cursor-pointer"
             src="https://cdn-icons-png.flaticon.com/512/5968/5968204.png"
-            alt="..."
           />
         </div>
         <div

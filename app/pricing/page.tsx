@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { IoMdCheckmark } from "react-icons/io";
 
@@ -14,7 +15,9 @@ const Pricing: React.FC = () => {
                   Free
                 </div>
                 <div className="w-[150px] mt-8 mb-4 ml-[72px] ">
-                  <img
+                  <Image
+                    height={160}
+                    width={160}
                     src="https://img.freepik.com/free-vector/beautiful-hand-draw-landscape-with-mountain-sketch-design_1035-20277.jpg?t=st=1656619535~exp=1656620135~hmac=f10f65b508250b926c1a72d1a699fc5c1b112e2934016ec2e3250c8f175395f8&w=900"
                     alt=""
                     className=""
@@ -54,7 +57,9 @@ const Pricing: React.FC = () => {
                   basic
                 </div>
                 <div className="w-[150px] mt-8 mb-4 ml-[72px]">
-                  <img
+                  <Image
+                    height={160}
+                    width={160}
                     src="https://img.freepik.com/free-vector/beautiful-hand-draw-landscape-with-mountain-sketch-design_1035-20277.jpg?t=st=1656619535~exp=1656620135~hmac=f10f65b508250b926c1a72d1a699fc5c1b112e2934016ec2e3250c8f175395f8&w=900"
                     alt=""
                     className=""
@@ -96,7 +101,9 @@ const Pricing: React.FC = () => {
                   gold
                 </div>
                 <div className="w-[150px] mt-8 mb-4 ml-[72px]">
-                  <img
+                  <Image
+                    height={160}
+                    width={160}
                     src="https://img.freepik.com/free-vector/beautiful-hand-draw-landscape-with-mountain-sketch-design_1035-20277.jpg?t=st=1656619535~exp=1656620135~hmac=f10f65b508250b926c1a72d1a699fc5c1b112e2934016ec2e3250c8f175395f8&w=900"
                     alt=""
                     className=""
