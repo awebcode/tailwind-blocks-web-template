@@ -1,14 +1,26 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Navbar from './components/Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: "Asikur Web Template",
   description: "Asikur Web Template -Md Asikur Rahman",
-  keywords:"asikur,asikur portfolio,tailwind,tailblocs,web desing,web development,ui,ux,software,software engineering,cse,com"
+  keywords:
+    "asikur,asikur portfolio,tailwind,tailblocs,web desing,web development,ui,ux,software,software engineering,cse,com",
+  openGraph: {
+    title: "Asikur Web Template",
+    description: "Asikur Web Template -Md Asikur Rahman",
+    url: "https://asikur-web-template.vercel.app/",
+    images:
+      "https://res.cloudinary.com/asikur/image/upload/v1701021482/Screenshot_541_beq5wy.png",
+
+    authors: "Md Asikur",
+  },
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
