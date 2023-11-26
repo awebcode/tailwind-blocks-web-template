@@ -20,18 +20,22 @@ import Pricing3 from "./components/Pricing3";
 import Login from "./components/Login";
 import Stats2 from "./components/Stats2";
 import { useEffect, useState } from "react";
+import Head from "next/head";
 
 const Home: React.FC = (): any => {
  
   return (
     <>
+      <Head>
+        <link rel="icon" type="image/png" href="/icon.png" />
+      </Head>
       <Navbar />{" "}
       <main className="flex min-h-screen flex-col items-center justify-between p-5">
         <Hero />
         <Static />
         <Team />
         <Stats />
-        <Stats2/>
+        <Stats2 />
         <Blog />
         <ProductDetails />
         <Steps />
@@ -43,7 +47,7 @@ const Home: React.FC = (): any => {
 
         <Pricing3 />
         <Plan />
-        <Login/>
+        <Login />
         <Contact_us />
         <Footer />
       </main>
