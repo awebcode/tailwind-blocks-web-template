@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 const Footer = () => {
@@ -124,7 +125,7 @@ const Footer = () => {
           </div>
           <div className="m-2 ml-16 mr-28 flex flex-col justify-between p-2 md:flex-row">
             {" "}
-            <img className="flex m-1" src="https://dummyimage.com/150x50" />
+            <Image height={80} width={90} alt='abc' className="flex m-1" src="https://dummyimage.com/150x50" />
             <div className="flex">
               {" "}
               <a href="#" className="m-1 hover:text-blue-600 text-gray-500">
@@ -138,8 +139,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
-      <script src="https://cdn.tailwindcss.com"></script>{" "}
+     
     </div>
   );
 }
