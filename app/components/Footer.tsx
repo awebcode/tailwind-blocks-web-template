@@ -25,31 +25,31 @@ const Footer = () => {
               {" "}
               <a
                 href="#"
-                className="w-9 h-9 rounded-full bg-gray-300 hover:bg-blue-600 hover:text-white mx-1 pt-1 inline-block"
+                className="w-9 h-9 flexCenter rounded-full bg-gray-300 hover:bg-blue-600 hover:text-white mx-1 pt-1 inline-block"
               >
                 <IoLogoTwitter className="fa fa-twitter ml-2 p-1" />
               </a>{" "}
               <a
                 href="#"
-                className="w-9 h-9 rounded-full bg-gray-300 hover:bg-blue-600 hover:text-white mx-1 pt-1 inline-block"
+                className="w-9 h-9 flexCenter rounded-full bg-gray-300 hover:bg-blue-600 hover:text-white mx-1 pt-1 inline-block"
               >
                 <IoLogoInstagram className="fa fa-twitter ml-2 p-1" />
               </a>{" "}
               <a
                 href="#"
-                className="w-9 h-9 rounded-full bg-gray-300 hover:bg-blue-600 hover:text-white mx-1 pt-1 inline-block"
+                className="w-9 h-9 flexCenter rounded-full bg-gray-300 hover:bg-blue-600 hover:text-white mx-1 pt-1 inline-block"
               >
                 <IoLogoFacebook className="fa fa-facebook ml-2 p-1"></IoLogoFacebook>
               </a>{" "}
               <a
                 href="#"
-                className="w-9 h-9 rounded-full bg-gray-300 hover:bg-blue-600 hover:text-white mx-1 pt-1 inline-block"
+                className="w-9 h-9 flexCenter rounded-full bg-gray-300 hover:bg-blue-600 hover:text-white mx-1 pt-1 inline-block"
               >
                 <IoLogoLinkedin className="fa fa-linkedin ml-2 p-1"></IoLogoLinkedin>
               </a>{" "}
               <a
                 href="#"
-                className="w-9 h-9 rounded-full bg-gray-300 hover:bg-blue-600 hover:text-white mx-1 pt-1 inline-block"
+                className="w-9 h-9 flexCenter rounded-full bg-gray-300 hover:bg-blue-600 hover:text-white mx-1 pt-1 inline-block"
               >
                 <IoLogoFoursquare className="fa fa-quora ml-2 p-1"></IoLogoFoursquare>
               </a>{" "}

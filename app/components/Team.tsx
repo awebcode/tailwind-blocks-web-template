@@ -28,25 +28,25 @@ const Team = () => {
                 <div className="flex my-2">
                   <a
                     href="#"
-                    className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
+                    className="w-9 h-9 flexCenter rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
                     <IoLogoTwitter className="fa fa-twitter"></IoLogoTwitter>
                   </a>
                   <a
                     href="#"
-                    className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
+                    className="w-9 h-9 flexCenter rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
                     <IoLogoInstagram className="fa fa-instagram"></IoLogoInstagram>
                   </a>
                   <a
                     href="#"
-                    className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
+                    className="w-9 h-9 flexCenter rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
                     <IoLogoFacebook className="fa fa-facebook"></IoLogoFacebook>
                   </a>
                   <a
                     href="#"
-                    className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
+                    className="w-9 h-9 flexCenter rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
                     <IoLogoLinkedin className="fa fa-linkedin"></IoLogoLinkedin>
                   </a>
@@ -70,25 +70,25 @@ const Team = () => {
                 <div className="flex my-2">
                   <a
                     href="#"
-                    className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
+                    className="w-9 h-9 flexCenter rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
                     <IoLogoTwitter className="fa fa-twitter"></IoLogoTwitter>
                   </a>
                   <a
                     href="#"
-                    className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
+                    className="w-9 h-9 flexCenter rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
                     <IoLogoInstagram className="fa fa-instagram"></IoLogoInstagram>
                   </a>
                   <a
                     href="#"
-                    className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
+                    className="w-9 h-9 flexCenter rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
                     <IoLogoFacebook className="fa fa-facebook"></IoLogoFacebook>
                   </a>
                   <a
                     href="#"
-                    className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
+                    className="w-9 h-9 flexCenter rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
                     <IoLogoLinkedin className="fa fa-linkedin"></IoLogoLinkedin>
                   </a>
@@ -112,25 +112,25 @@ const Team = () => {
                 <div className="flex my-2">
                   <a
                     href="#"
-                    className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
+                    className="w-9 h-9 flexCenter rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
                     <IoLogoTwitter className="fa fa-twitter"></IoLogoTwitter>
                   </a>
                   <a
                     href="#"
-                    className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
+                    className="w-9 h-9 flexCenter rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
                     <IoLogoInstagram className="fa fa-instagram"></IoLogoInstagram>
                   </a>
                   <a
                     href="#"
-                    className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
+                    className="w-9 h-9 flexCenter rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
                     <IoLogoFacebook className="fa fa-facebook"></IoLogoFacebook>
                   </a>
                   <a
                     href="#"
-                    className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
+                    className="w-9 h-9 flexCenter rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
                     <IoLogoLinkedin className="fa fa-linkedin"></IoLogoLinkedin>
                   </a>
@@ -155,25 +155,25 @@ const Team = () => {
                 <div className="flex my-2">
                   <a
                     href="#"
-                    className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
+                    className="w-9 h-9 flexCenter rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
                     <IoLogoTwitter className="fa fa-twitter"></IoLogoTwitter>
                   </a>
                   <a
                     href="#"
-                    className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
+                    className="w-9 h-9 flexCenter rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
                     <IoLogoInstagram className="fa fa-instagram"></IoLogoInstagram>
                   </a>
                   <a
                     href="#"
-                    className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
+                    className="w-9 h-9 flexCenter rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
                     <IoLogoFacebook className="fa fa-facebook"></IoLogoFacebook>
                   </a>
                   <a
                     href="#"
-                    className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
+                    className="w-9 h-9 flexCenter rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
                     <IoLogoLinkedin className="fa fa-linkedin"></IoLogoLinkedin>
                   </a>
