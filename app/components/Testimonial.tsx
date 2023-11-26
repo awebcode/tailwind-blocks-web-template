@@ -26,7 +26,9 @@ const Testimonial = () => {
                   pack venmo, post-ironic heirloom try-hard pabst authentic iceland.
                 </p>
                 <a className="inline-flex items-center">
-                 <img
+                  <Image
+                    height={50}
+                    width={50}
                    
                     alt="testimonial"
                     src="https://dummyimage.com/106x106"
@@ -57,7 +59,9 @@ const Testimonial = () => {
                   pack venmo, post-ironic heirloom try-hard pabst authentic iceland.
                 </p>
                 <a className="inline-flex items-center">
-                <img
+                 <Image
+                    height={50}
+                    width={50}
                    
                     alt="testimonial"
                     src="https://dummyimage.com/107x107"

@@ -77,7 +77,7 @@ const Navbar = () => {
         <div className="flex items-center gap-6">
           <button
             onClick={() => router.push("#login")}
-            className="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]"
+            className="bg-[#a6c1ee] text-white px-3 md:px-5 py-1 md:py-2 rounded-full hover:bg-[#87acec] text-base"
           >
             Sign in
           </button>
