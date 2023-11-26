@@ -27,7 +27,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {/* Replace with your URL */}
         {/* Add more og:image, og:type, og:locale etc. if needed */}
       </Head>
-      <Navbar />
+      {/* <Navbar /> */}
       {children}
     </>
   );

@@ -79,7 +79,7 @@ const Navbar = () => {
             onClick={() => router.push("#login")}
             className="bg-[#a6c1ee] text-white px-3 md:px-5 py-1 md:py-2 rounded-full hover:bg-[#87acec] text-base"
           >
-            Sign in
+            <a href="#login">Sign in</a>
           </button>
           {isMenuOpen ? (
             <IoIosClose

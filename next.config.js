@@ -8,7 +8,8 @@ const nextConfig = {
       "cloudinary.com",
       "dummyimage.com",
       "img.freepik.com",
-    ],
+      ],
+      unoptimized: true 
   },
 };
 
