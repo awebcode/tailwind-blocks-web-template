@@ -18,9 +18,10 @@ export const metadata: Metadata = {
 
     authors: "Md Asikur",
   },
-  // icons: {
-  //   icon: "/icon.png",
-  // },
+  icons: {
+    icon: "/icon.png",
+    
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
