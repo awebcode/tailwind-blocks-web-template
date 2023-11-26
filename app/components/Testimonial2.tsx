@@ -30,9 +30,7 @@ const Testimonial2: React.FC = () => {
                 </div>
                 <div className="h-6 w-6 bg-gray-600 -mt-8 mb-4 origin-center rotate-45"></div>
                 <div className="flex flex-col  items-center justify-center">
-                  <Image
-                    height={80}
-                    width={80}
+                  <img
                     alt="testimonial"
                     src="https://source.unsplash.com/100x100/?man,boy"
                     className="rounded-full h-20 w-20"
@@ -58,9 +56,7 @@ const Testimonial2: React.FC = () => {
                 </div>
                 <div className="h-6 w-6 bg-gray-600 -mt-8 mb-4 origin-center rotate-45"></div>
                 <div className="flex flex-col  items-center justify-center">
-                  <Image
-                    height={80}
-                    width={80}
+                  <img
                     alt="testimonial"
                     src="https://source.unsplash.com/100x100/?girl"
                     className="rounded-full h-20 w-20"
@@ -88,9 +84,7 @@ const Testimonial2: React.FC = () => {
                 </div>
                 <div className="h-6 w-6 bg-gray-600 -mt-8 mb-4 origin-center rotate-45"></div>
                 <div className="flex flex-col  items-center justify-center">
-                  <Image
-                    height={80}
-                    width={80}
+                  <img
                     alt="testimonial"
                     src="https://source.unsplash.com/100x100/?woman"
                     
