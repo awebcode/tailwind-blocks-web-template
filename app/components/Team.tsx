@@ -1,4 +1,5 @@
 import React from "react";
+import { IoLogoFacebook, IoLogoInstagram, IoLogoLinkedin, IoLogoTwitter } from "react-icons/io";
 
 const Team = () => {
   return (
@@ -29,25 +30,25 @@ const Team = () => {
                     href="#"
                     className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
-                    <i className="fa fa-twitter"></i>
+                    <IoLogoTwitter className="fa fa-twitter"></IoLogoTwitter>
                   </a>
                   <a
                     href="#"
                     className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
-                    <i className="fa fa-instagram"></i>
+                    <IoLogoInstagram className="fa fa-instagram"></IoLogoInstagram>
                   </a>
                   <a
                     href="#"
                     className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
-                    <i className="fa fa-facebook"></i>
+                    <IoLogoFacebook className="fa fa-facebook"></IoLogoFacebook>
                   </a>
                   <a
                     href="#"
                     className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
-                    <i className="fa fa-linkedin"></i>
+                    <IoLogoLinkedin className="fa fa-linkedin"></IoLogoLinkedin>
                   </a>
                 </div>
               </div>
@@ -71,25 +72,25 @@ const Team = () => {
                     href="#"
                     className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
-                    <i className="fa fa-twitter"></i>
+                    <IoLogoTwitter className="fa fa-twitter"></IoLogoTwitter>
                   </a>
                   <a
                     href="#"
                     className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
-                    <i className="fa fa-instagram"></i>
+                    <IoLogoInstagram className="fa fa-instagram"></IoLogoInstagram>
                   </a>
                   <a
                     href="#"
                     className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
-                    <i className="fa fa-facebook"></i>
+                    <IoLogoFacebook className="fa fa-facebook"></IoLogoFacebook>
                   </a>
                   <a
                     href="#"
                     className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
-                    <i className="fa fa-linkedin"></i>
+                    <IoLogoLinkedin className="fa fa-linkedin"></IoLogoLinkedin>
                   </a>
                 </div>
               </div>
@@ -113,25 +114,25 @@ const Team = () => {
                     href="#"
                     className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
-                    <i className="fa fa-twitter"></i>
+                    <IoLogoTwitter className="fa fa-twitter"></IoLogoTwitter>
                   </a>
                   <a
                     href="#"
                     className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
-                    <i className="fa fa-instagram"></i>
+                    <IoLogoInstagram className="fa fa-instagram"></IoLogoInstagram>
                   </a>
                   <a
                     href="#"
                     className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
-                    <i className="fa fa-facebook"></i>
+                    <IoLogoFacebook className="fa fa-facebook"></IoLogoFacebook>
                   </a>
                   <a
                     href="#"
                     className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
-                    <i className="fa fa-linkedin"></i>
+                    <IoLogoLinkedin className="fa fa-linkedin"></IoLogoLinkedin>
                   </a>
                 </div>
               </div>
@@ -140,7 +141,7 @@ const Team = () => {
                   <img
                     // height={40}
                     // width={40}
-                   
+
                     src="https://source.unsplash.com/300x300/?man,boy"
                     alt=""
                     className="object-cover object-center h-full w-full"
@@ -156,25 +157,25 @@ const Team = () => {
                     href="#"
                     className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
-                    <i className="fa fa-twitter"></i>
+                    <IoLogoTwitter className="fa fa-twitter"></IoLogoTwitter>
                   </a>
                   <a
                     href="#"
                     className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
-                    <i className="fa fa-instagram"></i>
+                    <IoLogoInstagram className="fa fa-instagram"></IoLogoInstagram>
                   </a>
                   <a
                     href="#"
                     className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
-                    <i className="fa fa-facebook"></i>
+                    <IoLogoFacebook className="fa fa-facebook"></IoLogoFacebook>
                   </a>
                   <a
                     href="#"
                     className="w-9 h-9 rounded-full border-cyan-500 border text-stone-500 hover:bg-cyan-500 hover:text-white mx-1 pt-1 inline-block"
                   >
-                    <i className="fa fa-linkedin"></i>
+                    <IoLogoLinkedin className="fa fa-linkedin"></IoLogoLinkedin>
                   </a>
                 </div>
               </div>
@@ -182,7 +183,6 @@ const Team = () => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 };

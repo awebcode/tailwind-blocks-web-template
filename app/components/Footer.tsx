@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react'
+import { IoLogoFacebook, IoLogoFoursquare, IoLogoInstagram, IoLogoLinkedin, IoLogoTwitter } from 'react-icons/io';
 
 const Footer = () => {
   return (
@@ -26,38 +27,41 @@ const Footer = () => {
                 href="#"
                 className="w-9 h-9 rounded-full bg-gray-300 hover:bg-blue-600 hover:text-white mx-1 pt-1 inline-block"
               >
-                <i className="fa fa-twitter ml-2 p-1"></i>
+                <IoLogoTwitter className="fa fa-twitter ml-2 p-1" />
               </a>{" "}
               <a
                 href="#"
                 className="w-9 h-9 rounded-full bg-gray-300 hover:bg-blue-600 hover:text-white mx-1 pt-1 inline-block"
               >
-                <i className="fa fa-instagram ml-2 p-1"></i>
+                <IoLogoInstagram className="fa fa-twitter ml-2 p-1" />
               </a>{" "}
               <a
                 href="#"
                 className="w-9 h-9 rounded-full bg-gray-300 hover:bg-blue-600 hover:text-white mx-1 pt-1 inline-block"
               >
-                <i className="fa fa-facebook ml-2 p-1"></i>
+                <IoLogoFacebook className="fa fa-facebook ml-2 p-1"></IoLogoFacebook>
               </a>{" "}
               <a
                 href="#"
                 className="w-9 h-9 rounded-full bg-gray-300 hover:bg-blue-600 hover:text-white mx-1 pt-1 inline-block"
               >
-                <i className="fa fa-linkedin ml-2 p-1"></i>
+                <IoLogoLinkedin className="fa fa-linkedin ml-2 p-1"></IoLogoLinkedin>
               </a>{" "}
               <a
                 href="#"
                 className="w-9 h-9 rounded-full bg-gray-300 hover:bg-blue-600 hover:text-white mx-1 pt-1 inline-block"
               >
-                <i className="fa fa-quora ml-2 p-1"></i>
+                <IoLogoFoursquare className="fa fa-quora ml-2 p-1"></IoLogoFoursquare>
               </a>{" "}
             </div>
           </div>
           <hr className="mt-2" />
           <div className="flex flex-col items-center justify-around md:flex-row">
             <div className="items-center m-1 justify-items-start w-60">
-              <h1 className="flex flex-col text-xl text-blue-600 font-medium"> Product </h1>{" "}
+              <h1 className="flex flex-col text-xl text-blue-600 font-medium">
+                {" "}
+                Product{" "}
+              </h1>{" "}
               <a href="#" className="flex hover:text-blue-600 text-gray-500">
                 Features
               </a>{" "}
@@ -75,7 +79,10 @@ const Footer = () => {
               </a>
             </div>
             <div className="items-center m-1 justify-start w-60">
-              <h1 className="flex flex-col text-xl text-blue-600 font-medium"> Company </h1>{" "}
+              <h1 className="flex flex-col text-xl text-blue-600 font-medium">
+                {" "}
+                Company{" "}
+              </h1>{" "}
               <a href="#" className="flex hover:text-blue-600 text-gray-500">
                 Terms
               </a>{" "}
@@ -93,7 +100,10 @@ const Footer = () => {
               </a>
             </div>
             <div className="items-center m-1 w-60">
-              <h1 className="flex flex-col text-xl text-blue-600 font-medium"> Support </h1>{" "}
+              <h1 className="flex flex-col text-xl text-blue-600 font-medium">
+                {" "}
+                Support{" "}
+              </h1>{" "}
               <a href="#" className="flex hover:text-blue-600 text-gray-500">
                 Community
               </a>{" "}
@@ -125,7 +135,13 @@ const Footer = () => {
           </div>
           <div className="m-2 ml-16 mr-28 flex flex-col justify-between p-2 md:flex-row">
             {" "}
-            <Image height={80} width={90} alt='abc' className="flex m-1" src="https://dummyimage.com/150x50" />
+            <Image
+              height={80}
+              width={90}
+              alt="abc"
+              className="flex m-1"
+              src="https://dummyimage.com/150x50"
+            />
             <div className="flex">
               {" "}
               <a href="#" className="m-1 hover:text-blue-600 text-gray-500">
@@ -139,7 +155,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-     
     </div>
   );
 }

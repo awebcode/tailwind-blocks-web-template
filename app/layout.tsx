@@ -1,8 +1,8 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Asikur Web Template",
@@ -23,18 +23,15 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
-  )
+  );
 }
-{/* <Head>
+{
+  /* <Head>
   <title>Asikur Web Template</title>
   <meta name="description" content="Asikur Web Template - Md Asikur Rahman" />
   <meta
@@ -50,6 +47,9 @@ export default function RootLayout({
     property="og:image"
     content="https://res.cloudinary.com/asikur/image/upload/v1701021482/Screenshot_541_beq5wy.png"
   />{" "}
-  {/* Replace with your URL */}
-  {/* Add more og:image, og:type, og:locale etc. if needed 
-</Head>*/}
+  {/* Replace with your URL */
+}
+{
+  /* Add more og:image, og:type, og:locale etc. if needed 
+</Head>*/
+}
