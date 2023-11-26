@@ -60,10 +60,12 @@ const Plan = () => {
                 unique websites within minutes. It has upto 60+ free components for
                 front-end Web Development.
               </p>
-              <img
+              <Image
+                height={90}
+                width={90}
+                alt=""
                 src="https://source.unsplash.com/150x150/?girl"
                 className="rounded-full mt-4"
-                alt=""
               />
               <div className="flex flex-col -ml-[352px] mt-72 absolute hidden xl:block">
                 <div className="w-2 h-14 bg-blue-900"></div>
@@ -91,10 +93,13 @@ const Plan = () => {
                 unique websites within minutes. It has upto 60+ free components for
                 front-end Web Development.
               </p>
-              <img
+              <Image
+                height={90}
+                width={90}
+                alt=""
                 src="https://source.unsplash.com/150x150/?woman"
                 className="rounded-full mt-4"
-                alt=""
+               
               />
               <div className="flex flex-col -ml-[352px] mt-72 absolute hidden xl:block">
                 <div className="w-2 h-14 bg-blue-900"></div>

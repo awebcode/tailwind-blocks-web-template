@@ -17,7 +17,6 @@ const Team = () => {
                     width={40}
                     alt="ecommerce"
                     src="https://source.unsplash.com/300x300/?girl"
-                   
                     className=""
                   />
                 </div>
@@ -55,7 +54,9 @@ const Team = () => {
               </div>
               <div className="flex-col px-6 py-2 shadow-xl rounded-2xl hover:scale-105 w-[90%] md:w-1/4">
                 <div className="h-40 w-40 border-2 border-cyan-500 rounded-full overflow-hidden bg-gray-200">
-                  <img
+                  <Image
+                    height={40}
+                    width={40}
                     src="https://source.unsplash.com/300x300/?man,businessman"
                     alt=""
                     className=""
@@ -95,7 +96,9 @@ const Team = () => {
               </div>
               <div className="flex-col px-6 py-2 shadow-xl rounded-2xl hover:scale-105 w-[90%] md:w-1/4">
                 <div className="h-40 w-40 border-2 border-cyan-500 rounded-full overflow-hidden bg-gray-200">
-                  <img
+                  <Image
+                    height={40}
+                    width={40}
                     src="https://source.unsplash.com/300x300/?girl,woman"
                     alt=""
                     className=""
@@ -135,7 +138,10 @@ const Team = () => {
               </div>
               <div className="flex-col px-6 py-2 shadow-xl rounded-2xl hover:scale-105 w-[90%] md:w-1/4">
                 <div className="h-40 w-40 border-2 border-cyan-500 rounded-full overflow-hidden bg-gray-200">
-                  <img
+                  <Image
+                    height={40}
+                    width={40}
+                   
                     src="https://source.unsplash.com/300x300/?man,boy"
                     alt=""
                     className=""
@@ -177,13 +183,7 @@ const Team = () => {
           </div>
         </div>
       </div>
-      <script src="https://cdn.tailwindcss.com"></script>
-      <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
-      <script
-        type="module"
-        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-      ></script>
-      <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>{" "}
+      
     </div>
   );
 };
