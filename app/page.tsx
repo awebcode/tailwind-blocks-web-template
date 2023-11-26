@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Pricing from "./pricing/page";
@@ -18,8 +19,10 @@ import Stats from "./components/Stats";
 import Pricing3 from "./components/Pricing3";
 import Login from "./components/Login";
 import Stats2 from "./components/Stats2";
+import { useEffect, useState } from "react";
 
 const Home: React.FC = (): any => {
+ 
   return (
     <>
       <Navbar />{" "}

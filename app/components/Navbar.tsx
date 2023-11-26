@@ -1,12 +1,10 @@
 "use client"
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { IoIosMenu, IoIosClose } from "react-icons/io";
 
 const Navbar = () => {
-  const router = useRouter();
   
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -76,7 +74,6 @@ const Navbar = () => {
         </div>
         <div className="flex items-center gap-6">
           <button
-            onClick={() => router.push("#login")}
             className="bg-[#a6c1ee] text-white px-3 md:px-5 py-1 md:py-2 rounded-full hover:bg-[#87acec] text-base"
           >
             <a href="#login">Sign in</a>
