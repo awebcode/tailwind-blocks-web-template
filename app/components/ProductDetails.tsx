@@ -8,10 +8,10 @@ const ProductDetails = () => {
         <div className="container px-5 py-24 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
             <Image
-              height={600}
-              width={600}
+              height={300}
+              width={300}
               alt="ecommerce"
-              className="w-[500px] h-[580px]  object-center rounded"
+              className="w-[440px] h-[580px]  object-center rounded"
               src="/pine.png"
             />
 
